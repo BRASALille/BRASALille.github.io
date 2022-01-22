@@ -1,0 +1,39 @@
+############# English navigation ##############
+
+# main menu
+
+[[main]]
+name = "home"
+url = ""
+weight = 1
+
+[[main]]
+name = "Alojamentos"
+url = "alojamentos/"
+weight = 2
+
+[[main]]
+name = "Ensino"
+url = "ensino/"
+weight = 3
+
+[[main]]
+name = "contato"
+url = "contato/"
+weight = 5
+
+[[main]]
+name = "Dicas"
+url = "dicas/"
+weight = 4
+
+# Dropdown
+# [[main]]
+# name = "Pages"
+# weight = 6
+# url = "blog/"
+# hasChildren = true
+# [[main]]
+# parent = "Pages"
+# name = "page 1"
+# url = "blog/"

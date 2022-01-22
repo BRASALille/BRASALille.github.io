@@ -1,0 +1,50 @@
+#################### default parameters ################################
+# favicon
+favicon = "images/favicon.png"
+# logo
+logo = "images/logo.png"
+# use `x` with logo_width, example: "100x"
+logo_width = "150px"
+# logo text will only show when logo is missing.
+logo_text = "BRASA Lille"
+description = "BRASA Lille"
+author = "BRASA Lille"
+image = "images/logo.png"
+mainSections = []
+contact_form_action = "#" # contact form works with https://formspree.io
+# copyright text
+copyright = "Siga-nos nas redes sociais!"
+# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
+custom_script= "" 
+
+# author
+[author_block]
+title= "BRASA Lille"
+image= "images/logo.png"
+image_Width = "150px"
+image_Height = "150px"
+content= "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam scelerisque nulla sed urna malesuada iaculis. Proin purus dui, facilisis eget cursus vitae, maximus quis justo. Phasellus quis tincidunt urna. Integer vulputate imperdiet risus non egestas. Suspendisse non pharetra odio. Etiam volutpat sed libero sed sollicitudin. Quisque ac sem dapibus tellus dignissim cursus id in augue. Duis a massa lacinia, egestas nunc in, feugiat eros. Vivamus commodo hendrerit arcu in aliquam. Nulla id ligula in diam aliquam dictum eu quis turpis."
+
+# Preloader
+[preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# cookies
+[cookies]
+enable = false
+expire_days = 2
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
+
+############################# social site ########################
+[[social]]
+icon = "fab fa-facebook-f"
+link = "#"
+[[social]]
+icon = "fab fa-instagram"
+link = "#"
+
+[[social]]
+icon = "fab fa-github"
+link = "#"
